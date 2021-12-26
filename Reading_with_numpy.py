@@ -1,4 +1,4 @@
-import numpy as np          #importing library numpy
+import numpy as np          # importing library numpy
 
 #reading dataset as numpy array using function genfromtext() by skiping the header part from the file and splitting at ","
 data_set = np.genfromtxt('titanic_mod.csv',skip_header=1,delimiter=",",filling_values=None)      
